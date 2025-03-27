@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.body{
+    background-color: blue;
+}
+.cabecalho{
+    text-decoration: none;
+}
+
+.empresa {
+
+    width: 1200px;
+    margin: 0 auto;
+    font-family: Boldonse;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+.Imagem {
+    width: 1200px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.titulo {
+    display: flex;
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 10px;
+    justify-content: space-around;
+    color: rgb(42, 42, 133);
+
+}
+
+.utilidades {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: rgb(42, 42, 133);
+}
+
+.titulo2 {
+    display: flex;
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+    justify-content: space-around;
+    color: rgb(42, 42, 133);
+
+}
+
+.Serviços {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.imagem-serviços {
+    width: 500px;
+    height: 350px;
+}
+
+.texto-servicos {
+    text-align: center;
+    padding: 50px;
+    line-height: 25px;
+}
+
+.imagem-manutencao {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.ilustração {
+    width: 250px;
+    height: 250px;
+    border: 0px solid black;
+    border-radius: 500px;
+    object-fit: cover;
+
+}
