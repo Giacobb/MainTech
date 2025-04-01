@@ -1,25 +1,10 @@
-console.log("Felipe")
-console.log(19)
-console.warn("atenção")
-console.error("um erro")
-
-/*
-3 formas de criar variaveis
-let
-var
-const
-*/
-
-let nome = "Felipe"
-let idade = 19
-let telefone = null
-console.log(nome, idade)
-nome = ("Felipe Giacobbe")
-console.log(nome)
 
 let nomeCompleto = ("")
 nomeCompleto = prompt ("informe seu nome completo:")
- 
+
+
+function fnTrocarCorDeFundo (){
+
 let cor = prompt ("Informe uma cor: \n 1-azul \n 2-Vermelho \n 3-preto \n 4-Verde \n 5-Rosa \n 6-Laranja")
 let corDeFundo = null
  
@@ -46,3 +31,6 @@ else{
 }
  
 document.body.style.backgroundColor = corDeFundo
+}
+
+fnTrocarCorDeFundo()
