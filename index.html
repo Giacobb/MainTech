@@ -35,19 +35,21 @@
             </p>
         </div>
         <div class="imagem-manutencao">
-            <img src="imagens/Manutenção4.png" alt="imagem de ilustração" class="ilustração">
-            <img src="imagens/manuteção3.jpg" alt="imagem de ilustração" class="ilustração">
-            <img src="imagens/Manuteção5.png" alt="imagem de ilustração" class="ilustração">
+            <img src="imagens/Manutenção4.png" alt="imagem de ilustração" class="ilustração" id="destaque1" onmouseenter="fnDestaque1Trocar()" onmouseout="fnDestaque1Original()">
+            <img src="imagens/manuteção3.jpg" alt="imagem de ilustração" class="ilustração" id="destaque2" onmouseenter="fnDestaque2Trocar()" onmouseout="fnDestaque2Original()">
+            <img src="imagens/Manuteção5.png" alt="imagem de ilustração" class="ilustração" id="destaque3" onmouseenter="fnDestaque3Trocar()" onmouseout="fnDestaque3Original()">
         </div>
 
         <div class="formulario">
             <h3 class="titulo-contato">Contato</h3>
-            <input type="text" name="nome" placeholder="Digite seu Nome" required>
-            <input type="email" name="email" placeholder="Digite seu E-mail" required>
-            <textarea name="mensagem" placeholder="Deixe uma Mensagem" rows="4" required></textarea>
-            <button type="submit">Enviar</button>
+            <input type="text" name="nome" placeholder="Digite seu Nome" id="nome" required >
+            <input type="email" name="email" placeholder="Digite seu E-mail" id="email" required >
+            <textarea name="mensagem" placeholder="Deixe uma Mensagem" id="mensagem"></textarea>
+            <button type="button" onclick="fnRegistrarContato()">Enviar</button>
+            <p id="informacoes"></p>
         </div>
 
+        
 
     </main>
     <script src="app.js"></script>
